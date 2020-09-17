@@ -22,7 +22,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+require 'simple_blockchain'  
+
+blockchain = SimpleBlockchain::Blockchain.new
+puts blockchain.addBlock({ amount: 4 })
+puts blockchain.addBlock({ amount: 50 })
+puts blockchain.isValid
+## exemple malicious attack
+puts blockchain.blocks[1].data['amount'] = 30000 
+puts blockchain.isValid
 
 ## Development
 
