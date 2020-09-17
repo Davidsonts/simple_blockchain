@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "Simple BlockChain"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
-  spec.metadata["allowed_push_host"] = "https://github.com/Davidsonts/simple_blockchain"
+  spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
   spec.metadata["homepage_uri"] = spec.homepage = 'https://github.com/Davidsonts/simple_blockchain'
   spec.metadata["source_code_uri"] = "https://github.com/Davidsonts/simple_blockchain"
